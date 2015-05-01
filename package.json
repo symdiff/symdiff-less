@@ -1,0 +1,19 @@
+{
+  "name": "symdiff-less",
+  "version": "0.0.1",
+  "description": "Extracts all classes from a LESS file.",
+  "main": "index.js",
+  "dependencies": {
+    "less": "2.5.0",
+    "symdiff-css": "0.0.2"
+  },
+  "devDependencies": {
+    "chai": "2.3.0",
+    "mocha": "2.2.4"
+  },
+  "scripts": {
+    "test": "mocha -r test/chai.js test/*.test.js"
+  },
+  "author": "Nikolaus Piccolotto <hello@npiccolotto.com>",
+  "license": "MIT"
+}
