@@ -18,9 +18,7 @@ function symdiffLESS(lessString) {
     } catch(err) {
         return [];
     }
-    if (!ast) {
-        return [];
-    }
+
     var classes = [];
     walk(ast, function(node) {
         if (node.type === 'class') {
